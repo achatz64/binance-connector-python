@@ -50,7 +50,7 @@ def check_type_parameter(value, name, data_type):
 
 
 def get_timestamp():
-    return int(time.time() * 1000)
+    return int(time.time() * 1000) - 2000
 
 
 def encoded_string(query):
